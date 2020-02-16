@@ -15,7 +15,7 @@ def start():
                 id = dms[i]['id']
 
                 if len(message) != 0 and len(message) < 280:
-                    if "MEME" in message:
+                    if "MEME!" in message:
                         for wrd in sw:
                             message = message.replace(wrd, "")
                         if len(message) != 0:
